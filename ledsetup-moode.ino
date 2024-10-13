@@ -4,7 +4,6 @@
 //Define number of LEDs 
 #define LED_PIN 13 
 //Pin to connect WS2812 LED strip [we used this one!] (GPIO12 on NodeMCU)
-
 CRGB leds[NUM_LEDS];
 
 void setup() {
@@ -27,7 +26,7 @@ void loop() {
         break;
       case 1:
         // Disgust
-        setColor(152, 255, 152); //Mint
+        setColor(255, 165, 0); //Orange
         break;
       case 2:
         // Fear
@@ -38,14 +37,10 @@ void loop() {
         setColor(226, 80, 152); //Pink
         break;
       case 4:
-        // Neutral
-        setColor(255, 255, 255); //White
+        // Sad
+        setColor(255, 223, 0); //Golden Yellow
         break;
       case 5:
-        // Sad
-        setColor(108, 142, 191);
-        break;
-      case 6:
         // Surprise
         setColor(138, 43, 226); //Violet
         break;
