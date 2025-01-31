@@ -29,6 +29,3 @@ When a user comes home after a long workday, they open their computer, and MoodE
 - **MTCNN, YOLOv8** (for mood detection – attempted)
 - **Custom Music Player** 
 - **Fragrance System** (automated scent release)
-
-## License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
